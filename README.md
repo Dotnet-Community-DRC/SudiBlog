@@ -1,6 +1,6 @@
 # Simple Blog System in ASP.NET Core
 
-This document provides an overview of a simple blog system built with ASP.NET Core, aiming to deliver a straightforward platform for creating, managing, and viewing blog posts. It leverages ASP.NET Core's robust framework to ensure a scalable, secure, and highly customizable blogging experience.
+A Simple blog system built with ASP.NET Core, aiming to deliver a straightforward platform for creating, managing, and viewing blog posts. It leverages ASP.NET Core's robust framework to ensure a scalable, secure, and highly customizable blogging experience.
 
 ## Features
 
