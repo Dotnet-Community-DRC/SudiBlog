@@ -1,9 +1,7 @@
-namespace SudiBlog.API.Enums
+namespace SudiBlog.API.Enums;
+public enum ReadyStatus
 {
-    public enum ReadyStatus
-    {
-        Incomplete,
-        ProductionReady,
-        PreviewReady
-    }
+    Incomplete,
+    ProductionReady,
+    PreviewReady
 }

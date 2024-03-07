@@ -1,8 +1,6 @@
-namespace SudiBlog.API.Controllers
+namespace SudiBlog.API.Controllers;
+public class BlogsController (ILogger<BlogsController> _logger) : BaseApiController
 {
-    public class BlogsController (ILogger<BlogsController> _logger) : BaseApiController
-    {
-        private readonly ILogger<BlogsController> logger = _logger;
-        
-    }
+    private readonly ILogger<BlogsController> logger = _logger;
+
 }

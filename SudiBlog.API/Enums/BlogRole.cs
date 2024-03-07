@@ -1,8 +1,6 @@
-namespace SudiBlog.API.Enums
+namespace SudiBlog.API.Enums;
+public enum BlogRole
 {
-    public enum BlogRole
-    {
-        Administrator,
-        Moderator
-    }
+    Administrator,
+    Moderator
 }
