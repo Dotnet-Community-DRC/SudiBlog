@@ -13,7 +13,7 @@ A Simple blog system built with ASP.NET Core, aiming to deliver a straightforwar
 
 ## Technologies
 
-- **ASP.NET Core**: For creating a dynamic web application with Model-View-Controller architecture, ensuring separation of concerns.
+- **ASP.NET Core**: For creating a dynamic web application with web api architecture, ensuring separation of concerns.
 - **Entity Framework Core**: For data access and ORM, simplifying database interactions with LINQ queries and strongly typed data models.
 - **Postgres**: As the backend database to store blog posts, comments, and user information securely.
 
@@ -24,9 +24,3 @@ A Simple blog system built with ASP.NET Core, aiming to deliver a straightforwar
 - .NET 8.0 SDK.
 - 6 to 9 months of coding experince, especially in C#.
 - Visual Studio code, Visual Studio 2022, Rider.
-
-### Setup
-
-1. **Clone the Repository**: Clone the project repository to your local machine.
-   ```bash
-   git clone https://github.com/your-repository/simple-blog-aspnetcore.git
