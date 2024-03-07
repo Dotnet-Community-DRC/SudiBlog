@@ -1,7 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using SudiBlog.API.Enums;
-
 namespace SudiBlog.API.Entities;
 public class Post
 {

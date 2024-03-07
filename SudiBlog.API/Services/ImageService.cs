@@ -2,12 +2,12 @@ namespace SudiBlog.API.Services
 {
     public class ImageService : IImageService
     {
-        public string? ContentType(IFormFile file)
+        public string ContentType(IFormFile file)
         {
             return file?.ContentType;
         }
 
-        public string? DecodeImage(byte[] data, string type)
+        public string DecodeImage(byte[] data, string type)
         {
             if (data is null || type is null) return null;
             return $"data:image/{type};base64,{Convert.ToBase64String(data)}";

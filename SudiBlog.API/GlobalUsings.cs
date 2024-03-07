@@ -8,3 +8,7 @@ global using Microsoft.EntityFrameworkCore;
 global using SudiBlog.API.Data;
 global using SudiBlog.API.Entities;
 global using SudiBlog.API.Enums;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
